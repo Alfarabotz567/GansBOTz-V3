@@ -1,6 +1,6 @@
 let handler = async (m, {conn}) => {
 let anu = '\nHallo!\n'
-m.reply(anu)  
+m.reply(Ya apa kak ${name})  
 }
 handler.customPrefix = /^hallo|hai$/i // ketik (tanpa prefix)
 handler.command = new RegExp
